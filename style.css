@@ -4,6 +4,7 @@
 *{
     text-align: center;
     color: white;
+    text-shadow: 2px 1px #000000;
 }
 body {
     background-image: url(image.png);
@@ -11,9 +12,16 @@ body {
     background-size: cover;
    }
 button{
-    color: black;
-    margin: 0 10px
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0 20px;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    cursor: pointer;
 }
 div{
-margin: 20px;
+margin: 50px;
+}
+h1{
+    font-size: 4em;
 }
